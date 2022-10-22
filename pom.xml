@@ -99,15 +99,11 @@
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
 	      <url>http://34.228.15.124:8081/landmark/repository/group37-releases/</url>
-
-	      <url>http://52.73.157.87:8081/landmark/repository/group37-releasese/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
 	      <url>http://34.228.15.124:8081/landmark/repository/group37-snashop/</url>
-
-	      <url>http://52.73.157.87:8081/landmark/repository/group37-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>

@@ -5,7 +5,8 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	
+	<version>0.0.2</version> 
 	
 	<name>maven-web-application</name>
 
@@ -24,9 +25,11 @@
 		<sonar.host.url>http:172.31.23.246:8001/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin123</sonar.password>
+		<sonar.host.url>http://172.31.86.38:5000/</sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>Ekwueme321</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
 	</properties>
 
 	<dependencies>
@@ -92,18 +95,17 @@
 		</dependency>
 		
 	</dependencies>
-	
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url> http://172.31.18.29:8081/repository/ebay-bts-releases/</url>
+	      <url>http://34.228.15.124:8081/landmark/repository/group37-releases/</url>
 	    </repository>
-	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
 	      <url>http://3.80.88.38:8082/repository/maven-snapshots/</url>
+	      <url>http://34.228.15.124:8081/landmark/repository/group37-snashop/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>

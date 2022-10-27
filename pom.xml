@@ -25,9 +25,9 @@
 		<sonar.host.url>http:172.31.23.246:8001/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin123</sonar.password>
-		<sonar.host.url>http://172.31.86.38:5000/</sonar.host.url>
+		<sonar.host.url>http://172.31.23.246:8001/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>Ekwueme321</sonar.password>
+		<sonar.password>admin123</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
